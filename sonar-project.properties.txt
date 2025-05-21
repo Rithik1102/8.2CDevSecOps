@@ -1,0 +1,10 @@
+# sonar-project.properties
+sonar.projectKey=Rithik1102_8.2CDevSecOps
+sonar.organization=Rithik
+sonar.host.url=https://sonarcloud.io
+sonar.login=${a49c2ed23f1004bdf9f4f1fd5c226a1c62890ebe}
+sonar.sources=.
+sonar.exclusions=node_modules/**,test/**
+sonar.javascript.lcov.reportPaths=coverage/lcov.info
+sonar.projectName=NodeJS Goof Vulnerable App
+sonar.sourceEncoding=UTF-8
